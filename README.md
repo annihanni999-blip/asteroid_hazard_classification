@@ -75,3 +75,5 @@ NASA’s real hazard assessment involves complex physics, long-term trajectory s
 2. (Optional) Install dependencies:
    ```bash
    pip install -r requirements.txt
+3. Open the notebook:
+   ML_FinalProject_Anna_NASA.ipynb
