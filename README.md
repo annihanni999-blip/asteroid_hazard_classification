@@ -9,12 +9,12 @@ This project was completed as part of an individual take-home assignment in **Ma
 
 ## 🚀 Motivation
 
-I have always been fascinated by space — partly because it is beautiful, partly because it is chaotic, and partly because there are gigantic rocks zooming around the Solar System.
+I have always been fascinated by space, partly because it is beautiful, partly because it is chaotic, and partly because there are gigantic rocks zooming around the Solar System.
 
 NASA tracks thousands of near-Earth objects, but telescope time and attention are limited.  
 This project explores whether machine learning can help **prioritize which asteroids deserve closer inspection**, using a simplified tabular dataset.
 
-Spoiler: machine learning is cool — but planetary defense is *very* hard.
+Spoiler: machine learning is cool, but planetary defense is *very* hard.
 
 ---
 
@@ -30,7 +30,7 @@ Spoiler: machine learning is cool — but planetary defense is *very* hard.
   - Absolute magnitude (brightness)
   - Sentry flag
 
-> Note: Absolute magnitude uses a **reverse scale** — lower values indicate brighter (and often larger) objects.
+> Note: Absolute magnitude uses a **reverse scale** --> lower values indicate brighter (and often larger) objects.
 
 ---
 
@@ -52,7 +52,7 @@ Evaluation focused on **ROC-AUC, precision, recall, and confusion matrices**, ra
 
 ## 📈 Key Findings
 
-- The dataset is **highly imbalanced** (≈10% hazardous).
+- The dataset is **highly imbalanced** (~10% hazardous).
 - Logistic Regression achieves high accuracy but **misses most hazardous asteroids**.
 - Random Forest significantly improves recall and AUC for hazardous objects.
 - **Absolute magnitude (brightness)** is the strongest single predictor.
